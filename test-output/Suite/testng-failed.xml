@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="SmokeSuite"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScript.OrganizationsModule3">
+        <methods>
+          <include name="signOut"/>
+          <include name="closureBrowser"/>
+          <include name="loginToApp"/>
+          <include name="DBclousure"/>
+          <include name="DBconfig"/>
+          <include name="browserLaunch"/>
+          <include name="OrganizationsModuleTest"/>
+        </methods>
+      </class> <!-- testScript.OrganizationsModule3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
